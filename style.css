@@ -28,11 +28,11 @@ body {
     color: #e5e7eb;
 }
 
-.sectext .author {
+.sectext {
     text-align: left;
 }
 
-ul {
+.hero ul {
     display: flex;
     padding: 10px 40px;
     gap: 20px;
@@ -63,8 +63,40 @@ a {
 .signup {
     background-color: #3882f6;
     padding: 6px 24px;
+    margin: 16px 0;
     border-radius: 12px;
     border-color: #3882f6;
     font-size: 20px;
     color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.infotitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.possibleheroes img {
+    height: 250px;
+    border-color: #3882f6;
+}
+
+.possibleheroes ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jack, .yeti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+    gap: 10px;
 }
